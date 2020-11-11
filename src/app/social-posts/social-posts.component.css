@@ -1,0 +1,7 @@
+.post-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 40px;
+  background-color: #fff;
+}

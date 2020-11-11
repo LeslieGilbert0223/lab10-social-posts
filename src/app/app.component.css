@@ -1,0 +1,9 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.app-post-container {
+  width: 70%;
+}

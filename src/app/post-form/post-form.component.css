@@ -1,0 +1,22 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.new-thought-container {
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.new-thought-button {
+  border: none;
+  background-color: #fff;
+}

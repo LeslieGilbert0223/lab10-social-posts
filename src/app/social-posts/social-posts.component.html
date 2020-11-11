@@ -1,0 +1,9 @@
+<app-post-form (submitted)="submitPost($event)"></app-post-form>
+
+<ul class="post-container">
+  <app-post
+    *ngFor="let post of posts; index as i"
+    [postRef]="post"
+    (deletePost)="onDelete(i)"
+  ></app-post>
+</ul>
